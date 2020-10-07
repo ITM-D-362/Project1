@@ -24,7 +24,9 @@ margin: 8px 0;
 input [type=submit] {
 }
 
-
+picture{
+	width: 85%;
+}
 
 @media only screen and (min-width: 800px){
 	body{
