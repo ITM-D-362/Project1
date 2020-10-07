@@ -10,8 +10,15 @@
   <script async src="js/script.js"></script>
 </head>
 <body>
-	<h1> Sign Up For The Luxury Fitness Center</h1>
+	<h1> Sign Up For The Luxury Fitness Center</h1> 
 	<img src="image/FitnessCenterPic.jpg" alt="logo" class="picture">
+
+	<select onchange="color(this.value)">
+		<option value="">Color</option>
+		<option value="red">Red</option>
+		<option value="green">Green</option>
+	</select> 
+
 	<form action="null" method="post" autocomplete="on">
 		<label for="name">Enter Name:</label><p></p>
 		<input type="name" id="name" placeholder="First Last"/><br>
