@@ -20,7 +20,8 @@ input {
   padding: 15px;
 }
 
-input [type=submit] {
+input [type=press-enter] {
+	  text-align: center
 }
 
 .picture{
