@@ -21,7 +21,7 @@ input {
 }
 
 input [type=press-enter] {
-	  text-align: center
+	  text-align: center;
 }
 
 .picture{
