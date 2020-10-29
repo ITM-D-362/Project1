@@ -1,49 +1,48 @@
 body {
-	text-align:center;
-	background-color: #f9be53;
-
+  text-align:center;
+  background-color: #f9be53;
+  font-family: 'Syne Tactile',' Comic Sans MS';
 }
+
 h1 {
-	font-weight:normal;
-	font-size: 45pt;
+  font-weight:normal;
+  font-size: 45pt;
 }
 
 label {
-	font-weight:bold;
-	font-size: 24pt;
+  font-weight:bold;
+  font-size: 24pt;
 }
-
-
 input {
-width: 95%;
-border-style: dashed;
-margin: 8px 0;
-	padding: 15px;
+  width: 95%;
+  border-style: dashed;
+  margin: 8px 0;
+  padding: 15px;
 }
 
 input [type=submit] {
 }
 
 .picture{
-	width: 85%;
+  width: 85%;
 }
 
 @media only screen and (min-width: 800px){
-	body{
-		background-color: #0782fc;
-	}
+  body{
+    background-color: #0782fc;
+  }
 
-	input {
-		width: 50%;
-		padding: 25px 50px;
-	}
-.picture{
-	width: 40%;
-}
+  input {
+    width: 50%;
+    padding: 25px 50px;
+  }
+  .picture{
+    width: 40%;
+  }
 }
 
 @media only screen and (max-width: 400px){
-
-	body{
-		background-color: #5eb03f;
-	}}
+  body{
+    background-color: #5eb03f;
+  }
+}
