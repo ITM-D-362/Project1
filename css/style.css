@@ -20,7 +20,7 @@ input {
   padding: 15px;
 }
 
-input [type=press-enter] {
+input [type=submit] {
 	  text-align: center;
 }
 
