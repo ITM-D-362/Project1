@@ -1,5 +1,5 @@
 /*
-https://www.modularscale.com/?24,45&px&1.125
+https://www.modularscale.com/?22,45&px&1.125
 */
 body {
   text-align:center;
@@ -9,15 +9,15 @@ body {
 
 h1 {
   font-weight:normal;
-  font-size: 45px; /*1.875em*/
+  font-size: 32px; /*1.375em*/
 }
 
 label {
   font-weight:bold;
-  font-size: 24px; /*1em*/
+  font-size: 22px; /*1.375em*/
 }
 input {
-  width: 95%;
+  width: 85%;
   border-style: dashed;
   margin: 8px 0;
   padding: 15px;
@@ -37,7 +37,7 @@ input [type=submit] {
   }
 h1 {
  
-  font-size: 60px; /*1.875em*/
+  font-size: 55px; /*3.437em*/
 }
   input {
     width: 50%;
@@ -48,8 +48,15 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 200px){
   body{
     background-color: #5eb03f;
   }
+h1 {
+ 
+   font-size: 15px; /*0.966em*/
+}
+input {
+    width: 80%;
+}
 }
