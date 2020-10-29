@@ -1,3 +1,6 @@
+/*
+https://www.modularscale.com/?24,45&px&1.125
+*/
 body {
   text-align:center;
   background-color: #f9be53;
@@ -6,12 +9,12 @@ body {
 
 h1 {
   font-weight:normal;
-  font-size: 45pt;
+  font-size: 45px; /*1.875em*/
 }
 
 label {
   font-weight:bold;
-  font-size: 24pt;
+  font-size: 24px; /*1em*/
 }
 input {
   width: 95%;
@@ -32,7 +35,10 @@ input [type=submit] {
   body{
     background-color: #0782fc;
   }
-
+h1 {
+ 
+  font-size: 60px; /*1.875em*/
+}
   input {
     width: 50%;
     padding: 25px 50px;
